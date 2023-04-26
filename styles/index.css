@@ -16,6 +16,8 @@ body {
     background-color: #222;
 }
 
+/*         NAV               */
+
 a {
     color: #fff;
     text-decoration: none;
@@ -72,6 +74,10 @@ nav a {
     font-size: 15px;
     margin: 15px;
 }
+
+/*        proyectos clases            */
+
+
 .proyectos h2{
     display: flex;
     justify-items: center;
@@ -85,9 +91,19 @@ nav a {
     justify-items: center;
     justify-content: center;
     margin: 20px;
-    border: solid 2px white;
+    border: solid 2px rgba(255, 255, 255, 0.863);
+    border-radius: 5px;
     padding: 10px;
     font-size: 13px;
+}
+.proyecto-1 h3{
+    background: rgb(6, 49, 49);
+}
+.proyecto-2 h3{
+    background: rgba(14, 7, 7, 0.712);
+}
+.proyecto-3 h3{
+    background: rgba(82, 12, 3, 0.87);
 }
 .proyectos p{
     background-color: #1a1a1a;
@@ -115,4 +131,22 @@ nav a {
     font-size: 14px;
     border-radius: 5px;
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+.sobre-mi h2{
+    margin: 20px 10px 20px 175px;
+}
+.footer {
+    margin: 10px 5px 0px 80px;
+    padding: 10px;
+    font-size: 12px;
+}
+.button-contact{
+    width: 90%;
+    margin: 25px 0px 0px 10px ;
+    background-color: #3d37378e;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 5px;
+    border: solid 1px ;
 }
